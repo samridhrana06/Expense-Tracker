@@ -1,0 +1,94 @@
+/* App.css */
+
+/* Center the card */
+.card {
+  width: 70%;
+  margin: 50px auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+}
+
+/* Style the card content */
+.card-content {
+  padding: 20px;
+}
+
+/* Center the h1 */
+h1 {
+  text-align: center;
+  color: #007bff;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+/* Section styles */
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  color: #333333;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+/* Input field styles */
+input[type="text"] {
+  width: calc(100% - 22px);
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Button styles */
+button {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Past transactions list */
+.pastTransactions ul {
+  padding: 0;
+}
+
+.pastTransactions ul li {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pastTransactions ul li strong {
+  font-weight: bold;
+  color: #333333;
+}
+
+/* Mandatory field indicator */
+.transaction-subject h3 span {
+  color: red;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+/* Styling for credited transactions */
+.light-green {
+  background-color: #e8f5e9; /* Light green color */
+}
+
+/* Styling for deducted transactions */
+.light-red {
+  background-color: #ffebee; /* Light red color */
+}
